@@ -3,6 +3,8 @@
 ChatGPT Prompt Snippets is a Google Chrome Extension that helps you manage and utilize prompt snippets conveniently when using ChatGPT.
 It provides a dialog interface where you can search and select prompt snippets to be inserted into the input area of ChatGPT.
 
+> NOTE: I am in the process of publishing this extension on the Chrome Web Store, but it is currently undergoing review.
+
 ## Motivation
 
 ChatGPT is a powerful tool, but sometimes composing the right prompt can be time-consuming.
