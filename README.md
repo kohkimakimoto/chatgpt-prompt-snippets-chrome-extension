@@ -12,12 +12,12 @@ This extension was created to streamline the process of crafting prompts by prov
 
 ## How to Use
 
-1. Install the Chrome Extension from the Chrome Web Store.
-2. Open ChatGPT at https://chat.openai.com/.
-3. Open the extension's dialog by pressing Ctrl + J or Cmd + J.
-4. Click the "Settings" button in the dialog to configure your snippets. See [Configuration](#configuration) for more details.
-5. Type to search for a snippet or select one from the list of snippets. 
-6. The selected snippet will be inserted into the ChatGPT input area.
+[//]: # (1. Install the Chrome Extension from the Chrome Web Store.)
+1. Open ChatGPT at https://chat.openai.com/.
+1. Open the extension's dialog by pressing Ctrl + J or Cmd + J.
+1. Click the "Settings" button in the dialog to configure your snippets. See [Configuration](#configuration) for more details.
+1. Type to search for a snippet or select one from the list of snippets. 
+1. The selected snippet will be inserted into the ChatGPT input area.
 
 ## Configuration
 
