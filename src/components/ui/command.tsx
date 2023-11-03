@@ -17,8 +17,9 @@ const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
       <DialogContent className="overflow-hidden p-0 shadow-lg md:max-w-2xl">
         <Command
           onKeyDown={(e) => {
-            // cmdk 0.2.0 does not have the following PR. This is a workaround.
+            // cmdk 0.2.0 does not include the following PR.
             // see https://github.com/pacocoursey/cmdk/pull/166
+            // The following code is a workaround.
             if (e.key === 'Enter' && e.nativeEvent.isComposing) {
               e.preventDefault();
             }
