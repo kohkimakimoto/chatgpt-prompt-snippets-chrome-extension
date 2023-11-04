@@ -3,7 +3,7 @@
 ChatGPT Prompt Snippets is a Google Chrome Extension that helps you manage and utilize prompt snippets conveniently when using ChatGPT.
 It provides a dialog interface where you can search and select prompt snippets to be inserted into the input area of ChatGPT.
 
-> NOTE: I am in the process of publishing this extension on the Chrome Web Store, but it is currently undergoing review.
+You can install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-prompt-snippets/ilcndgnlkiodbcpcgjkfihjponbenmem).
 
 ## Motivation
 
@@ -14,7 +14,7 @@ This extension was created to streamline the process of crafting prompts by prov
 
 ## How to Use
 
-[//]: # (1. Install the Chrome Extension from the Chrome Web Store.)
+1. Install the Chrome Extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-prompt-snippets/ilcndgnlkiodbcpcgjkfihjponbenmem).
 1. Open ChatGPT at https://chat.openai.com/.
 1. Open the extension's dialog by pressing Ctrl + J or Cmd + J.
 1. Click the "Settings" button in the dialog to configure your snippets. See [Configuration](#configuration) for more details.
