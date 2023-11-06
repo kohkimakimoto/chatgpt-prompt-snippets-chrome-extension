@@ -9,6 +9,8 @@ You can install the extension from the [Chrome Web Store](https://chrome.google.
 
 https://github.com/kohkimakimoto/chatgpt-prompt-snippets-chrome-extension/assets/761462/036ba0b8-0f1e-47e8-a99e-b8a3604157ea
 
+The above demo uses [this snippet](example-snippet.md).
+
 ## Motivation
 
 ChatGPT is a powerful tool, but sometimes composing the right prompt can be time-consuming.
