@@ -7,6 +7,8 @@ It provides a dialog interface where you can search and select prompt snippets t
 
 You can install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-prompt-snippets/ilcndgnlkiodbcpcgjkfihjponbenmem).
 
+https://github.com/kohkimakimoto/chatgpt-prompt-snippets-chrome-extension/assets/761462/036ba0b8-0f1e-47e8-a99e-b8a3604157ea
+
 ## Motivation
 
 ChatGPT is a powerful tool, but sometimes composing the right prompt can be time-consuming.
