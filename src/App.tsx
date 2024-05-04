@@ -170,7 +170,7 @@ export function App() {
             );
           })}
         </CommandList>
-        <div className="flex justify-end items-center py-1 px-2 border-t">
+        <div className="flex justify-end items-center py-1 px-2 border-t border-gray-200 dark:border-gray-700">
           {snippetGroups.length === 0 && <div className="flex-1 text-right text-amber-500 mr-1">There are no valid snippets. Check the configuration →</div>}
           <Button variant="ghost" className="text-xs px-2 h-8" onClick={handleOpenSettings}>
             <Settings className="mr-2 h-4 w-4" /> Settings
