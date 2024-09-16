@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "ChatGPT Prompt Snippets",
     "description": "Enhance your ChatGPT experience with quick access to frequently used prompts",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "kohki.makimoto@gmail.com",
     "icons": {
       "16": "icon16.png",
