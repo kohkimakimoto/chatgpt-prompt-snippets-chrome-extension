@@ -86,13 +86,9 @@ export function App() {
 
       // append snippet
       const lines = snippet.body.split('\n');
-      let n = 0;
       lines.forEach((line) => {
         const p = document.createElement('p');
         p.textContent = line;
-        n += 1;
-        console.log(n);
-        console.log(line);
         div.appendChild(p);
       });
 
