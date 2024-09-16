@@ -75,25 +75,30 @@ export function App() {
   };
 
   const handleSnippetSelect = (snippet: Snippet) => {
-    const textarea = document.getElementById('prompt-textarea') as HTMLTextAreaElement;
-    if (textarea) {
-      if (textarea.value === '') {
-        textarea.value = snippet.body;
-      } else {
-        textarea.value += '\n' + snippet.body;
+    // This div is ProseMirror editor
+    const div = document.getElementById('prompt-textarea') as HTMLDivElement;
+    if (div) {
+      // remove placeholder p tag
+      const placeholderP = div.querySelector('p[data-placeholder]');
+      if (placeholderP) {
+        div.removeChild(placeholderP);
       }
 
-      // dispatch input event to trigger autosize of textarea
-      textarea.dispatchEvent(
-        new Event('input', {
-          bubbles: true,
-          cancelable: true,
-        }),
-      );
+      // append snippet
+      const lines = snippet.body.split('\n');
+      let n = 0;
+      lines.forEach((line) => {
+        const p = document.createElement('p');
+        p.textContent = line;
+        n += 1;
+        console.log(n);
+        console.log(line);
+        div.appendChild(p);
+      });
 
       // focus textarea
       setTimeout(() => {
-        textarea.focus();
+        div.focus();
       }, 0);
 
       updateRecentSnippets(snippet);
